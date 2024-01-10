@@ -106,11 +106,17 @@
 
 .copyrigth{
   position: absolute;
+  display: block;
   bottom: 0;
   left: 0;
   font-size: 0.8rem;
   font-family: 'Concert One', sans-serif;
-  margin: 0;
+  color: white;
+  margin: 5px;
+  padding: 3px 10px;;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 6px;
+  align-content: center;
 }
 
 .copyrigth span {
@@ -155,7 +161,7 @@ and (max-width : 630px) {
   }
 
   .btn-confirmar {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
 }
