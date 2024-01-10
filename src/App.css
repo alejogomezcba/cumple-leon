@@ -101,7 +101,7 @@
 
 .copyrigth{
   position: absolute;
-  bottom: 0;
+  bottom: -180px;
   left: 2%;
   font-size: 0.8rem;
   font-family: 'Concert One', sans-serif;
