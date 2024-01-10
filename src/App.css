@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title{
+  font-family: 'Luckiest Guy', cursive;
+  color: #e59d36;
+  font-size: 5rem;
+  text-shadow: 0px 1px 6px rgba(0,0,0,1);
+  position: relative;
+  margin: 0;
+}
+
+
+.subtitle{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.718);
+  justify-content: space-evenly;
+}
+
+.subtitle h2{
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: 'Concert One', sans-serif;
+  text-transform: uppercase;
+  color: #99bb0b;
+}
+
+.subtitle h3{
+  margin: 0;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-family: 'Concert One', sans-serif;
+  text-transform: uppercase;
+  color: #99bb0b;
+}
+
+.salon-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #e21c31;;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 10px;
+  width: 97%;
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+}
+
+.google-maps-iframe {
+  border: none;
+  height: 200px;
+  margin: 20px 0 5px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+}
+
+.salon-container h4{
+  font-family: 'Concert One', sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.salon-container P {
+  font-family: 'Concert One', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+
+.btn-confirmar{
+  background-color: #99bb0b;
+  color: rgba(0,0,0,0.6);
+  border: none;
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'Concert One', sans-serif;
+}
+
+.btn-confirmar:hover{
+  background-color: #af31fd;
+  color: white;
+  transition: ease-in 0.3s;
+}
+
+.copyrigth{
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  font-size: 0.8rem;
+  font-family: 'Concert One', sans-serif;
+}
+
+.copyrigth span {
+  cursor: pointer;
+}
