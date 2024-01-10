@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
 
 .title{
@@ -10,7 +11,6 @@
   color: #e59d36;
   font-size: 5rem;
   text-shadow: 0px 1px 6px rgba(0,0,0,1);
-  position: relative;
   margin: 0;
 }
 
@@ -45,11 +45,14 @@
 .salon-container{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
   background-color: #e21c31;;
   border-radius: 10px;
   margin: 20px 0;
   padding: 10px;
-  width: 97%;
   -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
   -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
   box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
@@ -58,6 +61,7 @@
 .google-maps-iframe {
   border: none;
   height: 200px;
+  width: 98%;
   margin: 20px 0 5px 0;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
@@ -101,12 +105,56 @@
 
 .copyrigth{
   position: absolute;
-  bottom: -180px;
-  left: 2%;
+  bottom: 0;
+  left: 0;
   font-size: 0.8rem;
   font-family: 'Concert One', sans-serif;
+  margin: 0;
 }
 
 .copyrigth span {
   cursor: pointer;
+}
+
+
+@media only screen
+and (max-width : 630px) {
+  #root{
+    width: 98%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 20px;
+  }
+  .subtitle h2{
+    width: 98%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .subtitle h3{
+    width: 98%;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .counter-container{
+    width: 98%;
+  }
+
+  .salon-container{
+    width: 90%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+
+  .btn-confirmar {
+    margin-bottom: 20px;
+  }
+
 }

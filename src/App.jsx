@@ -19,7 +19,7 @@ const App = () => {
   return (
     <>
       <PictureAvatar/>
-      <h1 className="title">Los 5 de León</h1>
+      <h1 className="title">León</h1>
 
       <div className="subtitle">
         <h2>¡Te invito a mi fiesta!</h2>
