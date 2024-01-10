@@ -34,7 +34,7 @@ const App = () => {
 
         <iframe
           className="google-maps-iframe"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.7229395760096!2d-64.22436802362556!3d-31.394202195180725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298c178a91017%3A0x83a802872632abdd!2sDomingo%20Z%C3%ADpoli%20916%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1704856353871!5m2!1ses-419!2sar"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.7229395760096!2d-64.22436802362556!3d-31.394202195180725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298c178b4b527%3A0x832be3c0084313fb!2sFiestas%20Infantiles%20Traviesos!5e0!3m2!1ses-419!2sar!4v1704908446337!5m2!1ses-419!2sar"
           allowfullscreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
