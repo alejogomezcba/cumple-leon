@@ -92,6 +92,7 @@
   -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
   box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.51);
   font-size: 1.5rem;
+  line-height: 1.5rem;
   padding: 10px 20px;
   text-transform: uppercase;
   font-family: 'Concert One', sans-serif;
