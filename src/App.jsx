@@ -19,14 +19,18 @@ const App = () => {
   return (
     <>
       <PictureAvatar/>
-      <h1 className="title">Los 5 de León</h1>
+      <h1 className="title">¡Te invito a mi fiesta!</h1>
 
       <div className="subtitle">
-        <h2>¡Te invito a mi fiesta!</h2>
+        {/* <h2>¡Te invito a mi fiesta!</h2> */}
         <h3>28 de Enero de 17 a 19:30</h3>
       </div>
 
       <CountDown targetDate={targetDate} />
+
+      <button onClick={openLink} className="btn-confirmar">
+        Confirmar asistencia
+      </button>
 
       <div className="salon-container">
         <h4>Salón Traviesos</h4>
@@ -40,9 +44,6 @@ const App = () => {
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
-      <button onClick={openLink} className="btn-confirmar">
-        Confirmar asistencia
-      </button>
 
       <p className="copyrigth">
         Realizado por <span onClick={openCopyright}>CrabDesigns</span>
