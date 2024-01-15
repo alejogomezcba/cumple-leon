@@ -50,9 +50,9 @@ const App = () => {
         />
       </div>
 
-      <p className="copyrigth">
-        Realizado por <span onClick={openCopyright}>CrabDesigns</span>
-      </p>
+      <div className="copyrigth">
+        <p> Realizado por <span onClick={openCopyright}>CrabDesigns</span></p>
+      </div>
     </>
   );
 }

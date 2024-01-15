@@ -109,10 +109,23 @@
   /* position: absolute;
   bottom: 0;
   left: 2%; */
-  font-size: 0.8rem;
-  font-family: 'Concert One', sans-serif;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.718);
+  padding: 3px 14px;
+  border-radius: 10px;
 }
 
-.copyrigth span {
+.copyrigth p{
+  font-size: 0.9rem;
+  font-family: 'Concert One', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.copyrigth p span {
   cursor: pointer;
+}
+
+.copyrigth p span:hover {
+  color: #af31fd;
 }
